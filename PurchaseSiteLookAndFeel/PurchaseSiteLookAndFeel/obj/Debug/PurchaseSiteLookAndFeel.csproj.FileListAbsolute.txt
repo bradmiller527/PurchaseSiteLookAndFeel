@@ -1,0 +1,4 @@
+C:\Users\bmiller\Google Drive\Projects\PurchaseSiteLookAndFeel\PurchaseSiteLookAndFeel\bin\PurchaseSiteLookAndFeel.dll
+C:\Users\bmiller\Google Drive\Projects\PurchaseSiteLookAndFeel\PurchaseSiteLookAndFeel\bin\PurchaseSiteLookAndFeel.pdb
+C:\Users\bmiller\Google Drive\Projects\PurchaseSiteLookAndFeel\PurchaseSiteLookAndFeel\obj\Debug\PurchaseSiteLookAndFeel.dll
+C:\Users\bmiller\Google Drive\Projects\PurchaseSiteLookAndFeel\PurchaseSiteLookAndFeel\obj\Debug\PurchaseSiteLookAndFeel.pdb

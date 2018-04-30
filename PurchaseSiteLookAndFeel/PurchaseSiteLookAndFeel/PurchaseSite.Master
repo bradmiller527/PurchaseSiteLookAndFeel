@@ -1,0 +1,75 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PurchaseSite.master.cs" Inherits="PurchaseSiteLookAndFeel.PurchaseSite" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>ECOM Traffic - Master</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="http://localhost:51386/StyleSheet1.css" rel="stylesheet" 
+        type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+
+    <div>
+<%--        <img alt="" src="/Images/cotton field faded.jpg" 
+        style="width: 100%; height: 890px; position: absolute; z-index: 0;"  />--%>
+
+        <img alt="" src="/Images/cotton field faded.jpg" 
+        style="width: 100%; height: 1050px; position: absolute; z-index: 0;"  />
+    </div>
+
+
+
+
+    <div class="MainBody">
+   
+    <div style="width: 91px; height: 79px; position: absolute; top: 10px; left: 5px;">
+            <asp:Image ID="Image1" runat="server" Height="94px" 
+            ImageUrl="~/ECOM Cotton.jpg" Width="108px" />
+    </div>
+
+    <div style="width: 241px; position: relative; top: 22px; left: 106px; height: 53px;">
+        <h1>ECOM Cotton</h1>
+    </div>
+    <div style="position: relative; top: -31px; left: -5px; width: 571px; height: 56px; float: right;">
+    <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal">
+            <Items>
+                <asp:MenuItem Text="Home" Value="Home" NavigateUrl="~/Default.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="About US" Value="About Us"></asp:MenuItem>
+                <asp:MenuItem Text="Contracts" Value="Contracts"></asp:MenuItem>
+                <asp:MenuItem Text="Contact Us" Value="Contact Us"></asp:MenuItem>
+                <asp:MenuItem Text="Admin" Value="Admin" 
+                    NavigateUrl="~/Admin/wfMembership.aspx"></asp:MenuItem>
+            </Items>
+                <StaticMenuItemStyle BackColor="#1E5B32" BorderStyle="Solid" ForeColor="White" 
+                    HorizontalPadding="15px" VerticalPadding="10px" />
+                <StaticMenuStyle HorizontalPadding="20px" />
+                <StaticSelectedStyle ForeColor="White" />
+                <StaticItemTemplate>
+                    <%# Eval("Text") %>
+                </StaticItemTemplate>
+    </asp:Menu>
+    </div>
+    
+    <div style="position: relative; top: 26px; left: 908px; width: 51px;">
+        <asp:LoginStatus ID="LoginStatus1" runat="server" />
+    </div>
+
+    <div style="border-left: thin none #1E5B32; border-right: thin none #1E5B32; border-top: thin solid #1E5B32; border-bottom: thin none #1E5B32; position: relative; width: 100%; top: 50px; left: 0px; height: 100%; overflow: hidden; padding-left: 5px; padding-right: 5px;">       
+
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+    </asp:ContentPlaceHolder>
+
+
+
+
+
+    </div>
+    </div>
+    </form>
+</body>
+</html>

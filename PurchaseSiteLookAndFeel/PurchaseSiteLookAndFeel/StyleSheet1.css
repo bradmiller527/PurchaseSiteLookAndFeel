@@ -1,0 +1,51 @@
+﻿body
+{
+    font-family: 'Arial';
+    font-size: large;
+    font-weight: 300;
+    height: 100%;
+}
+
+.MainBody
+{
+    border: medium solid #1E5B32;
+    padding: 0px;
+    margin: 0px auto 0px auto;
+    background-color: #FFFFFF;
+    width: 1000px;
+    height: 1000px;
+    top: 15px;
+    position: relative;
+    z-index: 1;
+    border-radius: 25px;
+}
+
+
+
+h1
+{
+    color: #1E5B32;
+    font-size: xx-large;
+    font-weight: 600;
+    font-family: 'Arial Black';
+}
+
+.MainBodyPicWindow
+{
+    position: relative;
+    width: 330px;
+    left: 660px;
+    top: 15px;
+    
+}
+
+.MainBodyWithPicWindow
+{
+    position: absolute;
+    width: 650px;
+    left: 0px;
+    top: 0px;
+    padding-left: 5px;
+    overflow: hidden;
+}
+
